@@ -1,1 +1,11 @@
+body {
+  background-color: #000000;
+}
 
+p {
+  color: #1899CC;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+}
