@@ -2,6 +2,12 @@ body {
   background-color: #000000;
 }
 
+.navbar{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 p {
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
