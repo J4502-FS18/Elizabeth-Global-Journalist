@@ -4,7 +4,7 @@ body {
 
 .navbar{
   display:flex;
-  flex-direction: column;
+  flex-direction:column;
   justify-content: center;
 }
 
@@ -46,30 +46,43 @@ h2 {
   font-size: 28px;
 }
 
-ul {
+.navbar {
   color: #ffffff;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 700;
-  font-size: 36px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #A9A9A9;
 }
 
-li {
-    float: left;
+.item{
+  margin-bottom:10px;
+
 }
 
-li a {
+.item a {
     display: block;
     color: white;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+      background-color: #A9A9A9;
 }
 
-li a:hover {
+.item a:hover {
     background-color: #D3D3D3;
+}
+
+#container{
+  text-align:center;
+}
+
+img{
+
+}
+
+#footer{
+  color:#ffffff;
+  text-align: center;
+  background-color: #1F1F1F;
 }
