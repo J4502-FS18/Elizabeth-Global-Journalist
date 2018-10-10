@@ -400,5 +400,6 @@ h4 {
 }
 
 a {
-  decoration: none;
+  text-decoration: none;
+  color: black;
 }
