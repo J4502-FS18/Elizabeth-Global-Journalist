@@ -30,6 +30,142 @@ h2 {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
+  margin:5px;
+}
+
+h3{
+  font-size:1.5em;
+  color: #ffffff;
+  margin-bottom:0;
+  margin-top:30px;
+  font-family: 'Asap Condensed', sans-serif;
+}
+
+#pagetitle {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+}
+
+#sectionbody {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.navbar {
+  color: #ffffff;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.item{
+  margin-bottom:10px;
+
+}
+
+.item a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+      background-color: #A9A9A9;
+}
+
+.item a:hover {
+    background-color: #D3D3D3;
+}
+
+#container{
+  text-align:center;
+}
+
+#footer{
+  color:#ffffff;
+  text-align:center;
+  background-color: #1F1F1F;
+}
+
+#headline{
+  border-color: #ffffff;
+  border-width: 2px 0 2px 0;
+  border-style:solid;
+  margin:20px;
+}
+
+.map{
+  margin:25px 50px 25px 35px;
+}
+
+.storylog{
+  display:flex;
+  flex-direction:row;
+  padding:15px 30px 15px 30px;
+  margin:20px;
+  background-color: #121212;
+}
+
+.storylog:hover{
+  border-width: 1px;
+  border-color:#2F8ECA;
+  border-style: solid;
+}
+
+.storyheadline{
+  margin-left:25px;
+}
+
+.storylog p{
+  text-align: left;
+}
+
+.regionalstory a{
+  text-decoration:none;
+}
+
+.regionalstory a:hover{
+  text-decoration: underline;
+}
+
+
+body {
+  background-color: #000000;
+}
+
+.navbar{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+p {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
 }
 
 #pagetitle {
@@ -78,7 +214,7 @@ h2 {
 }
 
 img{
-width:60%;
+
 }
 
 #footer{
@@ -102,7 +238,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #2F8Eca;
     color: white;
     padding: 20px 20px;
     border: none;
@@ -111,17 +247,11 @@ input[type=submit] {
     font-family:'PT Sans', sans-serif;
 }
 
-
+/* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
     background-color: #45a049;
 }
 
-#headline{
-  border-color: #ffffff;
-  border-width: 2px 0 2px 0;
-  border-style:solid;
-  margin:20px;
-}
 
 .contactus {
     border-radius: 5px;
@@ -239,104 +369,17 @@ h4 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-body {
-  background-color: #000000;
+img{
+  width:60%
 }
 
-.navbar{
-  display:flex;
-  flex-direction:column;
-  justify-content: center;
+#video {
+  width:100%
+  padding: 100px;
+  padding:20px;
 }
-
-p {
-  color: #ffffff;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  text-align: center;
-}
-
-h1 {
-  color: #ffffff;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  text-align: center;
-}
-
-h2 {
-  color: #ffffff;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  text-align: center;
-}
-
-#pagetitle {
-  color: #ffffff;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 700;
-  font-size: 34px;
-}
-
-#sectionbody {
-  color: #ffffff;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 700;
-  font-size: 28px;
-}
-
-.navbar {
-  color: #ffffff;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 20px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.item{
-  margin-bottom:10px;
-
-}
-
-.item a {
-    display: block;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-      background-color: #A9A9A9;
-}
-
-.item a:hover {
-    background-color: #D3D3D3;
-}
-
-#container{
-  text-align:center;
-}
-
-#footer{
-  color:#ffffff;
-  text-align: center;
-  background-color: #1F1F1F;
-}
-
 #homestoryflow{
-  background-color: white;
+  background-color: #121212;
   margin-bottom: 5px;
   margin-left: 2px;
   margin-left: 2px;
@@ -347,7 +390,7 @@ h2 {
   letter-spacing: 1px;
   font-weight: 700;
   text-decoration: #000000;
-  background-color: white;
+  background-color: #121212;
   text-align: left;
 }
 
@@ -355,6 +398,6 @@ h2 {
   font-size: 13px;
   line-height: 1.5;
   text-decoration: #0f0f0f;
-  background-color: white;
+  background-color: #121212;
   text-align: left;
 }
