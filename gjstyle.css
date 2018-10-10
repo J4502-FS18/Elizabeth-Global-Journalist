@@ -403,3 +403,27 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.storybox img{
+  margin-top: 20px;
+}
+.storybox{
+  margin:20px auto;
+  background-color:#1f1f1f;
+  width:90%;
+  padding:1px;
+}
+
+.storybox h4{
+  color:#ffffff;
+  font-family:'Asap Condensed', sans-serif;
+  text-align: left;
+  margin:10px 20px 5px 20px;
+}
+
+.storybox p{
+  margin:5px 20px 10px 20px;
+  color:#8f8f8f;
+  font-size: 0.75em;
+  text-align: left;
+}
