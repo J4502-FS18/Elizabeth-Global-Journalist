@@ -238,7 +238,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #2F8Eca;
     color: white;
     padding: 20px 20px;
     border: none;
@@ -377,4 +377,27 @@ img{
   width:100%
   padding: 100px;
   padding:20px;
+}
+#homestoryflow{
+  background-color: #121212;
+  margin-bottom: 5px;
+  margin-left: 2px;
+  margin-left: 2px;
+}
+
+#storytitle{
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-decoration: #000000;
+  background-color: #121212;
+  text-align: left;
+}
+
+#storysubtitle{
+  font-size: 13px;
+  line-height: 1.5;
+  text-decoration: #0f0f0f;
+  background-color: #121212;
+  text-align: left;
 }
