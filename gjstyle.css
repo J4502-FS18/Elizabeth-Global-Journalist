@@ -77,10 +77,6 @@ h2 {
   text-align:center;
 }
 
-div.storytext {
-  text-align: left;
-}
-
 img{
 
 }
@@ -89,4 +85,9 @@ img{
   color:#ffffff;
   text-align: center;
   background-color: #1F1F1F;
+}
+
+#homestoryflow{
+  background-color: white;
+  margin-bottom: 5px;
 }
