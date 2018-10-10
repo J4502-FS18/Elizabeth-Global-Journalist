@@ -376,7 +376,7 @@ h4 {
   padding:20px;
 }
 #homestoryflow{
-  background-color: #121212;
+  background-color: white;
   margin-bottom: 5px;
   margin-left: 2px;
   margin-left: 2px;
@@ -386,7 +386,7 @@ h4 {
   font-size: 16px;
   letter-spacing: 1px;
   font-weight: 700;
-  text-decoration: #000000;
+  text-decoration: black;
   background-color: white;
   text-align: left;
 }
@@ -394,7 +394,7 @@ h4 {
 #storysubtitle{
   font-size: 13px;
   line-height: 1.5;
-  text-decoration: #0f0f0f;
+  text-decoration: gray;
   background-color: white;
   text-align: left;
 }
