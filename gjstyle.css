@@ -92,6 +92,7 @@ h3{
   background-color: #1F1F1F;
 }
 
+<<<<<<< HEAD
 #headline{
   border-color: #ffffff;
   border-width: 2px 0 2px 0;
@@ -131,4 +132,28 @@ h3{
 
 .regionalstory a:hover{
   text-decoration: underline;
+=======
+#homestoryflow{
+  background-color: white;
+  margin-bottom: 5px;
+  margin-left: 2px;
+  margin-left: 2px;
+}
+
+#storytitle{
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-decoration: #000000;
+  background-color: white;
+  text-align: left;
+}
+
+#storysubtitle{
+  font-size: 13px;
+  line-height: 1.5;
+  text-decoration: #0f0f0f;
+  background-color: white;
+  text-align: left;
+>>>>>>> 39f93ab39e09514253db70523da67863f4c34560
 }
