@@ -30,6 +30,15 @@ h2 {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
+  margin:5px;
+}
+
+h3{
+  font-size:1.5em;
+  color: #ffffff;
+  margin-bottom:0;
+  margin-top:30px;
+  font-family: 'Asap Condensed', sans-serif;
 }
 
 #pagetitle {
@@ -77,12 +86,49 @@ h2 {
   text-align:center;
 }
 
-img{
-
-}
-
 #footer{
   color:#ffffff;
-  text-align: center;
+  text-align:center;
   background-color: #1F1F1F;
+}
+
+#headline{
+  border-color: #ffffff;
+  border-width: 2px 0 2px 0;
+  border-style:solid;
+  margin:20px;
+}
+
+.map{
+  margin:25px 50px 25px 35px;
+}
+
+.storylog{
+  display:flex;
+  flex-direction:row;
+  padding:15px 30px 15px 30px;
+  margin:20px;
+  background-color: #121212;
+}
+
+.storylog:hover{
+  border-width: 1px;
+  border-color:#2F8ECA;
+  border-style: solid;
+}
+
+.storyheadline{
+  margin-left:25px;
+}
+
+.storylog p{
+  text-align: left;
+}
+
+.regionalstory a{
+  text-decoration:none;
+}
+
+.regionalstory a:hover{
+  text-decoration: underline;
 }
