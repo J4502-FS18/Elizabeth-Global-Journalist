@@ -401,3 +401,7 @@ img{
   background-color: #121212;
   text-align: left;
 }
+
+a {
+  decoration: none;
+}
