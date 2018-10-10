@@ -100,6 +100,7 @@ img{
   font-weight: 700;
   text-decoration: #000000;
   background-color: white;
+  text-align: left;
 }
 
 #storysubtitle{
@@ -107,4 +108,5 @@ img{
   line-height: 1.5;
   text-decoration: #0f0f0f;
   background-color: white;
+  text-align: left;
 }
