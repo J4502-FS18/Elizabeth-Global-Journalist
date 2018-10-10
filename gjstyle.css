@@ -98,11 +98,13 @@ img{
   font-size: 16px;
   letter-spacing: 1px;
   font-weight: 700;
-  color: black;
+  color: #000000;
+  background-color: white;
 }
 
 #storysubtitle{
   font-size: 13px;
   line-height: 1.5;
-  color: Gray;
+  color: #0f0f0f;
+  background-color: white;
 }
