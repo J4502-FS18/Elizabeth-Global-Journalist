@@ -93,3 +93,14 @@ img{
   margin-left: 2px;
   margin-left: 2px;
 }
+
+#storytitle{
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+#storysubtitle{
+  font-size: 13px;
+  line-height: 1.5;
+}
