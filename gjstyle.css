@@ -369,9 +369,6 @@ h4 {
 }
 
 
-img{
-  width:60%
-}
 
 #video {
   width:100%
@@ -390,7 +387,7 @@ img{
   letter-spacing: 1px;
   font-weight: 700;
   text-decoration: #000000;
-  background-color: #121212;
+  background-color: white;
   text-align: left;
 }
 
@@ -398,6 +395,10 @@ img{
   font-size: 13px;
   line-height: 1.5;
   text-decoration: #0f0f0f;
-  background-color: #121212;
+  background-color: white;
   text-align: left;
+}
+
+a {
+  decoration: none;
 }
