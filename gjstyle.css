@@ -402,3 +402,7 @@ h4 {
 a {
   decoration: none;
 }
+
+.team-img img{
+  width:60%;
+}
