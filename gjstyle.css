@@ -88,13 +88,13 @@ h3{
 
 <<<<<<< HEAD
 .title {
-  font-size: 30px; 
+  font-size: 30px;
 }
-.storytext {
+.storytext {}
 =======
 #footer{
   color:#ffffff;
-  text-align:center;
+  text-align:left;
   background-color: #1F1F1F;
 }
 
@@ -128,7 +128,7 @@ h3{
 }
 
 .storylog p{
->>>>>>> 2e929ce6a9e92a786d96bfae62d20e6d268910a1
+
   text-align: left;
   font-size: 1em;
   font-weight: bold;
