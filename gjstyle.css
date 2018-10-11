@@ -75,7 +75,7 @@ h3{
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: #A9A9A9;
+      background-color: #A9A9A9;
 }
 
 .item a:hover {
@@ -86,15 +86,9 @@ h3{
   text-align:center;
 }
 
-<<<<<<< HEAD
-.title {
-  font-size: 30px;
-}
-.storytext {
-=======
 #footer{
   color:#ffffff;
-  text-align:center;
+  text-align:left;
   background-color: #1F1F1F;
 }
 
@@ -128,6 +122,8 @@ h3{
 }
 
 .storylog p{
+
+
   text-align: left;
   font-size: 1em;
   font-weight: bold;
@@ -221,7 +217,12 @@ h2 {
   text-align:center;
 }
 
+.title {
+ font-size: 30px;}
 
+ .storytext{
+   text-align: left;
+ }
 
 img{
 
