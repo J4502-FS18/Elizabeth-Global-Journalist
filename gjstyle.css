@@ -394,10 +394,14 @@ h4 {
   padding:20px;
 }
 #homestoryflow{
-  background-color: white;
-  margin-bottom: 5px;
-  margin-left: 2px;
-  margin-left: 2px;
+  width:90%;
+  background-color:#1f1f1f;
+  margin:20px auto;
+}
+
+#homestoryflow img{
+    margin-top: 20px;
+    width:90%
 }
 
 #storytitle{
@@ -405,25 +409,29 @@ h4 {
   letter-spacing: 1px;
   font-weight: 700;
   text-decoration: black;
-  background-color: white;
   text-align: left;
+  color:#ffffff;
+  margin:10px 20px 5px 20px;
+
 }
 
 #storysubtitle{
   font-size: 13px;
   line-height: 1.5;
   text-decoration: gray;
-  background-color: white;
   text-align: left;
+  color:#8f8f8f;
+  margin:5px 20px 10px 20px;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color:#ffffff;
 }
 
 .storybox img{
   margin-top: 20px;
+  width:90%;
 }
 .storybox{
   margin:20px auto;
