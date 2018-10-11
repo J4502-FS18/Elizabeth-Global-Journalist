@@ -77,9 +77,14 @@ h2 {
   text-align:center;
 }
 
-div.storytext {
+.title {
+  font-size: 30px; 
+}
+.storytext {
   text-align: left;
 }
+
+
 
 img{
 
