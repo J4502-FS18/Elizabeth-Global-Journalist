@@ -501,8 +501,8 @@ nav ul {
 		width: 2em;
     padding:10px;
     position: relative;
-    left:-140px;
-    top:-55px;
+    top:-60px;
+    left:-190px;
 
 }
 
@@ -510,6 +510,8 @@ nav ul {
   order:2;
 position:relative;
 right:-10px;
+  letter-spacing: 2px;
+  font-weight: 300;
   padding: 0;
     margin:0;
 }
@@ -530,6 +532,10 @@ right:-10px;
 #headbar{
   display: flex;
   flex-flow: row;
+  justify-content: center;
+  width:90%;
+  margin: 0 auto;
+
 }
 
 
@@ -539,8 +545,10 @@ right:-10px;
 }
 
 h1{
-  font-size: 4em;
+  font-size: 3.6em;
   margin:0 auto;
+  letter-spacing: 6px;
+    font-weight: 180;
 }
 
 
