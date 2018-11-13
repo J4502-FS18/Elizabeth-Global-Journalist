@@ -6,10 +6,14 @@ body {
   border-left: 40px solid #ffffff;
 }
 
+
+
 .navbar{
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-flow:row;
   justify-content: center;
+    visibility:hidden;
+
 }
 
 p {
@@ -26,6 +30,7 @@ h1 {
   font-weight: 700;
   font-size: 40px;
   text-align: center;
+  margin:0;
 }
 
 h2 {
@@ -483,6 +488,7 @@ line-height:30px;
   margin-right: 10px;
 }
 
+<<<<<<< HEAD
 @media screen (min-width: 600px){
    #allstories {
 
@@ -494,4 +500,75 @@ line-height:30px;
     #exiles {
 
     }
+=======
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    display:none;
+}
+
+.menu-trigger {
+		order: 1;
+		font-size: 2.5em;
+		width: 2em;
+    padding:10px;
+    position: relative;
+    left:-140px;
+    top:-55px;
+
+}
+
+#headbar h1{
+  order:2;
+position:relative;
+right:-10px;
+  padding: 0;
+    margin:0;
+}
+
+@media screen and (min-width: 700px){
+
+  .navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+  }
+
+
+.menu-trigger{
+  display: none;
+}
+
+#headbar{
+  display: flex;
+  flex-flow: row;
+}
+
+
+#headbar img{
+  width: 100px;
+  height: 100px;
+}
+
+h1{
+  font-size: 4em;
+  margin:0 auto;
+}
+
+
+nav ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  list-style-type: none;
+}
+
+nav ul li{
+
+  width:100%;
+
+}
+
+>>>>>>> 4a080baf601435a9bd0dfdcc60c83721784ab757
 }
