@@ -478,3 +478,14 @@ line-height:30px;
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.featureandmissionstatement {
+  display: none;
+}
+
+/* START OF HOMEPAGE DESKTOP CHANGES */
+
+@media screen and (min-width: 600px)  {
+  .featureandmissionstatement {
+    
+  }
