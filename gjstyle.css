@@ -402,19 +402,19 @@ h4 {
   padding: 100px;
   padding:20px;
 }
-#homestoryflow{
+.homestoryflow{
   width:90%;
   background-color:#1f1f1f;
   margin:20px auto;
   padding:1px;
 }
 
-#homestoryflow img{
+.homestoryflow img{
     margin-top: 20px;
     width:90%
 }
 
-#storytitle{
+.storytitle{
   font-size: 16px;
   letter-spacing: 1px;
   font-weight: 700;
@@ -425,12 +425,12 @@ h4 {
 
 }
 
-#storysubtitle{
+.storysubtitle{
   font-size: 13px;
   line-height: 1.5;
   text-decoration: gray;
   text-align: left;
-  color:#8f8f8f;
+  color:#ffffff;
   margin:5px 20px 10px 20px;
 }
 
@@ -481,12 +481,88 @@ a {
 line-height:30px;
 }
 
+nav ul {
+
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  display:none;
+}
+
+@media screen and (min-width: 600px){
+   .navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+  }
+ .menu-trigger{
+  display: none;
+}
+ #headbar{
+  display: flex;
+  flex-flow: row;
+}
+
+#headbar img{
+  width: 100px;
+  height: 100px;
+}
+
+ h1{
+  font-size: 4em;
+  margin:0 auto;
+}
+
+ nav ul {
+    display: flex;
+    flex-flow: row;
+justify-content: center;
+list-style-type: none;
+}
+
+ nav ul li{
+   width:100%;
+}
+
+ .menu-trigger {
+		order: 1;
+		font-size: 2.5em;
+		width: 2em;
+    padding:10px;
+    position: relative;
+    left:-140px;
+    top:-55px;
+ }
+
+ #headbar h1{
+  order:2;
+position:relative;
+right:-10px;
+  padding: 0;
+    margin:0;
+}
+
+}
+
 
 .businesscard {
   background-color: #1F1F1F;
   margin-left: 10px;
   margin-right: 10px;
 }
+
+
+@media screen (min-width: 600px){
+   #allstories {
+
+   }
+ }
+
+@media screen (min-width: 600px)
+  {
+    #exiles {
+
+    }
 
 nav ul {
     list-style-type: none;
