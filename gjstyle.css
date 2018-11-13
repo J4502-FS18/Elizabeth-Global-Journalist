@@ -6,7 +6,18 @@ body {
   border-left: 40px solid #ffffff;
 }
 
+.featureandmissionstatement {
+  display: none;
+}
 
+/* START OF HOMEPAGE DESKTOP CHANGES */
+
+@media screen and (min-width: 600px)  {
+  .featureandmissionstatement {
+
+  }
+
+/* END OF HOMEPAGE DESKTOP CHANGES */
 
 .navbar{
   display: flex;
@@ -488,6 +499,7 @@ line-height:30px;
   margin-right: 10px;
 }
 
+=======
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -558,3 +570,4 @@ nav ul li{
 }
 
 }
+>>>>>>> f0ed49d9c8fab78d06a1a1544911643fa1f18b74
