@@ -3,6 +3,7 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
+
 #video1 {
   position: relative;
   padding-bottom: 56.25%;
@@ -10,6 +11,8 @@ body {
   height: 0;
   overflow: hidden;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #video1  iframe,
