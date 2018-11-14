@@ -491,6 +491,11 @@ line-height:30px;
 <<<<<<< HEAD
 @media screen (min-width: 600px){
    #allstories {
+    display:grid;
+    grid-template-areas:
+    "story1 story1 story1"
+    "story2 story3 story4"
+
 
    }
  }
@@ -498,6 +503,8 @@ line-height:30px;
 @media screen (min-width: 600px)
   {
     #exiles {
+      display: grid;
+      grid-template-areas:
 
     }
 =======
