@@ -478,8 +478,61 @@ line-height:30px;
   margin-right: 10px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+nav ul {
+     list-style-type: none;
+     padding: 0;
+     margin:0 auto;
+     display:none;
+ }
+
+.menu-trigger {
+ 		order: 1;
+ 		font-size: 2.5em;
+ 		width: 2em;
+     padding:10px;
+     position: relative;
+     top:-60px;
+     left:-190px;
+
+ }
+
+ #headbar h1{
+   order:2;
+ position:relative;
+ right:-10px;
+   letter-spacing: 2px;
+   font-weight: 300;
+   padding: 0;
+     margin:0;
+ }
+
+ #gsnavbox h3{
+   color: #2F8ECA;
+   margin: 0;
+   font-size: 1.3em;
+ }
+ #gsnavbox{
+  text-align:left;
+  display: none;
+}
+
+.gsnav{
+   text-align: left;
+   border-top: 1px solid #ffffff;
+   margin-bottom: 50px;
+ }
+
+ .gsnav p{
+   margin: 5px;
+  font-size: 0.8em;
+}
+ #worldmap{
+  display: none;
+}
+ .storylogbox-2{
+  display: none;
+}
+
 
 
 @media screen (min-width: 600px){
@@ -707,3 +760,5 @@ nav ul li{
   }
 
   }
+
+@media screen and (min-width: 700px) {
