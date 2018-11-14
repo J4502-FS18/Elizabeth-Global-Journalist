@@ -15,32 +15,81 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Asap+Condensed" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	  <script src="menu.js"></script>
   </head>
 
   <body>
 
-    <div class="navbar">
-      <div class="item-1 item"><a href="index.html">Home</a></div>
-      <div class="item-2 item"><a href="globalstories.html">Global Stories</a></div>
-      <div class="item-3 item"><a href="exiledjournalists.html">Exiled Journalists</a></div>
-      <div class="item-4 item"><a href="aboutus.html">About Us</a></div>
-    </div>
+
 
     <div id="container">
 
-      <img src="logo.jpg" alt="this is the logo" width="40%"/>
+      <div id="headbar">
+
+        <img src="logo.jpg" alt="logo" width="20%"></img>
+             <h1> GLOBAL JOURNALIST</h1>
+           </div>
+
+     <nav>
+
+         <a class="menu-trigger" href="#">&#9776;</a>
+       <ul>
+         <li><div class="item-1 item"><a href="index.html">HOME</a></div></li>
+         <li><div class="item-2 item"><a href="globalstories.html">GLOBAL STORIES</a></div></li>
+         <li><div class="item-3 item"><a href="exiledjournalists.html">EXILED JOURNALISTS</a></div></li>
+         <li><div class="item-4 item"><a href="aboutus.html">ABOUT US</a></div></li>
+       </ul>
+       <!--
+       <div class="navbar">
+         <div class="item-1 item"><a href="index.html">Home</a></div>
+         <div class="item-2 item"><a href="globalstories.html">Global Stories</a></div>
+         <div class="item-3 item"><a href="exiledjournalists.html">Exiled Journalists</a></div>
+         <div class="item-4 item"><a href="aboutus.html">About Us</a></div>
+       </div>
+ -->
+
+
+     </nav>
+
       <div id="headline">
         <h2> Global Stories </h2>
       </div>
+      <div id="worldmap">
+        <h2>What's going on worldwide?</h2>
+      <img src="gsimg/worldmap.jpg" alt="world map" width="90%" />
+    </div>
 
+<div id="gsgridbox">
+    <div id="gsnavbox">
+
+      <h3>Global Stories &#187;</h3>
+        <div class="gsnav-1 gsnav">
+      <p>ALL (298)</p>
+      <p>AFRICA (41)</p>
+      <p>ASIA (84)</p>
+      <p>AMERICAS (60)</p>
+      <p>EUROPE (50)</p>
+      <p>MIDDEL EAST (53)</p>
+      <p>PACIFIC (10)</p>
+    </div>
+          <h3>Global Journalist Radio &#187;</h3>
+      <div class="gsnav-2 gsnav">
+      <p>Global Journalist is produced weekly, with new episodes available on Thursdays.</p>
+    </div>
+    </div>
+
+
+<div id="regionalstorybox">
       <div class="regionalstory-1 regionalstory">
        <h3> AFRICA </h3>
       <div class="map">
       <a href="globalstories_africa.html"><img src="gsimg/africa.jpg" alt="map of africa" width="300px"/></a>
       </div>
+            <div class="storylogbox-1 storylogbox">
       <div class="storylog-1 storylog">
         <div class="storypic">
-          <img src="gsimg/africa-1.jpg" width="100px"/>
+          <img src="gsimg/africa-1.jpg" width="180px"/>
         </div>
         <div class="storyheadline">
           <p> C.A.R. crisis stirred by diamonds, Russia</p>
@@ -50,7 +99,7 @@
 
       <div class="storylog-2 storylog">
         <div class="storypic">
-          <img src="gsimg/africa-2.jpg" width="100px"/>
+          <img src="gsimg/africa-2.jpg" width="180px"/>
         </div>
         <div class="storyheadline">
           <p>Eritrea's opportunity</p>
@@ -60,24 +109,61 @@
 
       <div class="storylog-3 storylog">
         <div class="storypic">
-          <img src="gsimg/africa-3.jpg" width="100px"/>
+          <img src="gsimg/africa-3.jpg" width="180px"/>
         </div>
         <div class="storyheadline">
           <p>Ethiopia’s new hope</p>
           <p style="font-size:0.7em; color:#8f8f8f;">By Jason McLure</p>
         </div>
       </div>
+
+          </div>
+    <div class="storylogbox-2 storylogbox">
+
+      <div class="storylog-4 storylog">
+        <div class="storypic">
+          <img src="gsimg/africa-4.jpg" width="180px"/>
+        </div>
+        <div class="storyheadline">
+          <p> Insurgents, poor schools plague northern Nigeria</p>
+          <p style="font-size:0.7em; color:#8f8f8f;">By Jason McLure</p>
+        </div>
+      </div>
+
+      <div class="storylog-5 storylog">
+        <div class="storypic">
+          <img src="gsimg/africa-5.jpg" width="180px"/>
+        </div>
+        <div class="storyheadline">
+          <p>South Sudan’s standoff</p>
+          <p style="font-size:0.7em; color:#8f8f8f;">By Jason McLure</p>
+        </div>
+      </div>
+
+      <div class="storylog-6 storylog">
+        <div class="storypic">
+          <img src="gsimg/africa-6.jpg" width="180px"/>
+        </div>
+        <div class="storyheadline">
+          <p> Debating overpopulation</p>
+          <p style="font-size:0.7em; color:#8f8f8f;">By Jason McLure</p>
+        </div>
+      </div>
+    </div>
+    <div class="more">
     <a href="globalstories_africa.html"><p style="margin-bottom:100px; color:#BABABA;"> -- MORE --</p></a>
     </div>
+  </div>
 
     <div class="regionalstory-2 regionalstory">
      <h3>ASIA</h3>
     <div class="map">
     <a href="globalstories_asia.html"><img src="gsimg/asia.jpg" alt="map of asia" width="350px"/></a>
     </div>
+      <div class="storylogbox-1 storylogbox">
     <div class="storylog-1 storylog">
       <div class="storypic">
-        <img src="gsimg/asia-1.jpg" width="100px"/>
+        <img src="gsimg/asia-1.jpg" width="180px"/>
       </div>
       <div class="storyheadline">
         <p>The market in human organs</p>
@@ -87,7 +173,7 @@
 
     <div class="storylog-2 storylog">
       <div class="storypic">
-        <img src="gsimg/asia-2.jpg" width="100px"/>
+        <img src="gsimg/asia-2.jpg" width="180px"/>
       </div>
       <div class="storyheadline">
         <p>‘One-child’ policy leaves China graying</p>
@@ -97,23 +183,64 @@
 
     <div class="storylog-3 storylog">
       <div class="storypic">
-        <img src="gsimg/asia-3.jpg" width="100px"/>
+        <img src="gsimg/asia-3.jpg" width="180px"/>
       </div>
       <div class="storyheadline">
         <p>India’s girl shortage </p>
         <p style="font-size:0.7em; color:#8f8f8f;">By Jason McLure</p>
       </div>
     </div>
-  <p style="margin-bottom:100px; color:#BABABA;">-- MORE --</p>
+
   </div>
 
+          <div class="storylogbox-2 storylogbox">
+            <div class="storylog-4 storylog">
+              <div class="storypic">
+                <img src="gsimg/asia-4.jpg" width="180px"/>
+              </div>
+              <div class="storyheadline">
+                <p>Internet addiction in China</p>
+                <p style="font-size:0.7em; color:#8f8f8f;">By Jason McLure</p>
+              </div>
+            </div>
+
+            <div class="storylog-5 storylog">
+              <div class="storypic">
+                <img src="gsimg/asia-5.jpg" width="180px"/>
+              </div>
+              <div class="storyheadline">
+                <p>‘Combat Obscura’ gives unfiltered view of Afghan war</p>
+                <p style="font-size:0.7em; color:#8f8f8f;">By Jason McLure</p>
+              </div>
+            </div>
+
+            <div class="storylog-6 storylog">
+              <div class="storypic">
+                <img src="gsimg/asia-6.jpg" width="180px"/>
+              </div>
+              <div class="storyheadline">
+                <p>Climate change in South Asia</p>
+                <p style="font-size:0.7em; color:#8f8f8f;">By Jason McLure</p>
+              </div>
+            </div>
 
 
-    </div>
+
+          </div>
+  </div>
+  <div class="more">
+  <p style="margin-bottom:100px; color:#BABABA;">-- MORE --</p>
+  </div>
+</div>
+
+  </div>
+</div>
 
     <div id="footer">
      © 2018 Global Journalist. All rights reserved. Global Journalist is produced by the Missouri School of Journalism
     </div>
+
+  </div>
 
 
   </body>
