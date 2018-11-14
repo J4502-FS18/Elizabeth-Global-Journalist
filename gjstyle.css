@@ -480,14 +480,29 @@ line-height:30px;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+
+#story1 {
+  grid-area:a;
+}
+
+#story2{
+  grid-area: b;
+}
+
+#story3{
+  grid-area:c;
+}
+
+#story4{
+  grid-area:d;
+}
+
 @media screen (min-width: 600px){
    #allstories {
     display:grid;
     grid-template-areas:
-    "story1 story1 story1"
-    "story2 story3 story4"
-
-
+    "a a a"
+    "b c d";
    }
  }
 
