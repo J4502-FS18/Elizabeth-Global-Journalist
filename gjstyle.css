@@ -516,6 +516,7 @@ right:-10px;
 
 #gsnavbox{
   text-align:left;
+  display: none;
 }
 
 
@@ -529,6 +530,14 @@ right:-10px;
 .gsnav p{
   margin: 5px;
   font-size: 0.8em;
+}
+
+#worldmap{
+  display: none;
+}
+
+.storylogbox-2{
+  display: none;
 }
 
 
@@ -584,8 +593,24 @@ nav ul li{
 }
 
 @media screen and (min-width: 700px){
+
   #headline{
     display: none;
+  }
+
+  #worldmap{
+    display:flex;
+    flex-flow: column;
+  }
+
+  #gsnavbox{
+    display:flex;
+    flex-flow: column;
+  }
+
+  .storylogbox-2{
+    display: flex;
+    flex-flow: column;
   }
 
   .map img{
