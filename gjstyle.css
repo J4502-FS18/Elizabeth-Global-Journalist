@@ -15,12 +15,13 @@ body {
   margin-right: auto;
 }
 
+
+
 #video1  iframe,
 #video1  object,
 #video1 embed {
   position: absolute;
   top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
 }
@@ -480,7 +481,6 @@ a {
 #video1 {
   margin-top:100px;
   margin-bottom: 20px;
-
 }
 
 
