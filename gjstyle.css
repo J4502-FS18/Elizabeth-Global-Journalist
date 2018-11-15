@@ -1002,7 +1002,7 @@ margin-right:auto;
 
 @media screen and (min-width: 700px){
 
-#exiledjournalists {
+  #exiledjournalists {
   display: contents;
   font-size: 30px;
   font-weight: bold;
