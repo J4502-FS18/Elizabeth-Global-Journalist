@@ -205,6 +205,56 @@ h2 {
   text-align: center;
 }
 
+/* STATEMENT AND FEATURE CODE */
+
+.missionandfeature {
+  margin: 0 20px;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+  display: grid;
+  grid-gap: 20px;
+  gap: 20px;
+  background-color: blue;
+  color: white;
+  grid-template-areas:
+  "a b";
+}
+
+.mission li {
+  background-color: #C09400;
+  border: 1px solid #1B4513;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.feature li {
+  background-color: #C09400;
+  border: 1px solid #1B4513;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.missionandfeature img {
+  width: 100%;
+}
+
+.missionstatement {
+ max-width: 200px;
+ text-align: center;
+ justify-content: center;
+}
+
+.mission{
+  grid-area:a;
+}
+
+.feature{
+  grid-area:b;
+}
+
+/*END OF STATEMENT AND FEATURE CODE*/
+
 #pagetitle {
   color: #ffffff;
   font-family: 'Oswald', sans-serif;
@@ -708,3 +758,36 @@ margin-right:auto;
 }
 
   }
+
+
+
+
+@media screen and (min-width: 700px){
+
+
+/* Code to hide the shit out of the mission statement and featue story
+
+  .missionandfeature ul{
+    list-style-type: none;
+    display:none;
+  }
+
+  .missionstatement{
+    display:none;
+  }
+
+  .mission {
+    display: none;
+  }
+
+  .feature {
+    display:none;
+  }
+
+  #mandf {
+    display:none;
+  }
+
+*/
+
+}
