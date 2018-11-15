@@ -4,6 +4,10 @@ body {
   padding: 20px;
 }
 
+#storybackground {
+  background-color: # #1F1F1F;
+}
+
 #mandf {
   display: none;
 }
