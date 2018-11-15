@@ -4,6 +4,11 @@ body {
   padding: 20px;
 }
 
+#mandf {
+  display: none;
+}
+
+
 #video1 {
   position: relative;
   padding-bottom: 56.25%;
@@ -205,55 +210,6 @@ h2 {
   text-align: center;
 }
 
-/* STATEMENT AND FEATURE CODE */
-
-.missionandfeature {
-  margin: 0 20px;
-  padding: 0;
-  list-style: none;
-  justify-content: center;
-  display: grid;
-  grid-gap: 20px;
-  gap: 20px;
-  background-color: blue;
-  color: white;
-  grid-template-areas:
-  "a b";
-}
-
-.mission li {
-  background-color: #C09400;
-  border: 1px solid #1B4513;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.feature li {
-  background-color: #C09400;
-  border: 1px solid #1B4513;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.missionandfeature img {
-  width: 100%;
-}
-
-.missionstatement {
- max-width: 200px;
- text-align: center;
- justify-content: center;
-}
-
-.mission{
-  grid-area:a;
-}
-
-.feature{
-  grid-area:b;
-}
-
-/*END OF STATEMENT AND FEATURE CODE*/
 
 #pagetitle {
   color: #ffffff;
@@ -459,19 +415,19 @@ h4 {
   padding: 100px;
   padding:20px;
 }
-#homestoryflow{
+.homestoryflow{
   width:90%;
   background-color:#1f1f1f;
   margin:20px auto;
   padding:1px;
 }
 
-#homestoryflow img{
+.homestoryflow img{
     margin-top: 20px;
     width:90%
 }
 
-#storytitle{
+.storytitle{
   font-size: 16px;
   letter-spacing: 1px;
   font-weight: 700;
@@ -482,7 +438,7 @@ h4 {
 
 }
 
-#storysubtitle{
+.storysubtitle{
   font-size: 13px;
   line-height: 1.5;
   text-decoration: gray;
@@ -957,30 +913,102 @@ margin-right:auto;
 
 @media screen and (min-width: 700px){
 
+#mandf {
+  display: grid;
+}
 
-/* Code to hide the shit out of the mission statement and featue story
-
-  .missionandfeature ul{
-    list-style-type: none;
-    display:none;
+  .missionandfeature {
+    margin: 0 20px;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+    display: grid;
+    gap: 20px;
+    background-color: black;
+    color: white;
+    grid-template-areas:
+    "a b b";
   }
 
-  .missionstatement{
-    display:none;
+  .mission1 {
+    background-color: blue;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
   }
 
-  .mission {
-    display: none;
+  .mission1 p {
+    text-align: center;
+    justify-content: center;
   }
 
-  .feature {
-    display:none;
+  .mission2 {
+    background-color: none;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
   }
 
-  #mandf {
-    display:none;
+  .missionandfeature img {
+    width: 100%;
+    justify-content: center;
   }
 
-*/
+
+  .missionstatement {
+  font-size: 27px;
+   max-width: 200px;
+   text-align: center;
+   justify-content: center;
+   align-content: center;
+   align-self: center;
+  }
+
+  .mission1{
+    grid-area:a;
+  }
+
+  .mission2{
+    grid-area:b;
+  }
 
 }
+
+@media screen and (min-width: 700px){
+
+   #webstories {
+      display:flex;
+      flex-direction:row;
+      padding:15px 30px 15px 30px;
+      margin:20px;
+      background-color: #121212;
+    }
+
+    .storylog:hover{
+      border-width: 1px;
+      border-color:#2F8ECA;
+      border-style: solid;
+    }
+
+    .storyheadline{
+      margin-left:25px;
+    }
+
+    .storylog p{
+      text-align: left;
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    #webstories a{
+      text-decoration:none;
+    }
+
+    #webstories a:hover{
+      text-decoration: underline;
+    }
+
+  }
