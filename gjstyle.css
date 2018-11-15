@@ -1012,3 +1012,39 @@ margin-right:auto;
     }
 
   }
+
+  @media screen and (min-width: 700px){
+
+     #exiles {
+        display:flex;
+        flex-direction:row;
+        padding:15px 30px 15px 30px;
+        margin:20px;
+        background-color: #121212;
+      }
+
+      .storylog:hover{
+        border-width: 1px;
+        border-color:#2F8ECA;
+        border-style: solid;
+      }
+
+      .storyheadline{
+        margin-left:25px;
+      }
+
+      .storylog p{
+        text-align: left;
+        font-size: 1em;
+        font-weight: bold;
+      }
+
+      #webstories a{
+        text-decoration:none;
+      }
+
+      #webstories a:hover{
+        text-decoration: underline;
+      }
+
+    }
