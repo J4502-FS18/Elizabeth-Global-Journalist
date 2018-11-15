@@ -73,7 +73,7 @@ h3{
   color: #ffffff;
   margin-bottom:0;
   margin-top:30px;
-  font-family: 'Asap Condensed', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 #pagetitle {
@@ -307,9 +307,7 @@ h2 {
    text-align: left;
  }
 
-img{
 
-}
 
 #footer{
   color:#ffffff;
@@ -422,7 +420,6 @@ body {
 
 
 h4 {
-    text-align: CENTER;
     font-family:  'Vollkorn', serif;
     color:rgb(51,135,190);
     margin-top: 5px;
@@ -499,25 +496,25 @@ a {
   color:#ffffff;
 }
 
-.storybox img{
-  margin-top: 20px;
+.ejstorybox img{
+  margin: 20px;
   width:90%;
 }
-.storybox{
+.ejstorybox{
   margin:20px auto;
-  background-color:#1f1f1f;
+  background-color:#121212;
   width:90%;
   padding:1px;
 }
 
-.storybox h4{
+.ejstorybox h4{
   color:#ffffff;
   font-family:'Asap Condensed', sans-serif;
   text-align: left;
   margin:10px 20px 5px 20px;
 }
 
-.storybox p{
+.ejstorybox p{
   margin:5px 20px 10px 20px;
   color:#8f8f8f;
   font-size: 0.75em;
@@ -587,10 +584,22 @@ right:-10px;
   font-size: 1.3em;
 }
 
+#ejnavbox h3{
+  color: #2F8ECA;
+  margin-top: 40px;
+  font-size: 1.3em;
+}
+
 #gsnavbox{
   text-align:left;
   display: none;
 }
+
+#ejnavbox{
+  text-align:left;
+  display: none;
+}
+
 
 
 
@@ -606,6 +615,109 @@ right:-10px;
 }
 
 .storylogbox-2{
+  display: none;
+}
+
+#topstorybox{
+  display: flex;
+  flex-flow: row;
+  text-align: left;
+  background-color: #000000;
+  padding: 15px;
+}
+
+#topstorybox h4{
+  font-family: 'Asap Condensed', sans-serif;
+  color: #ffffff;
+}
+
+#topstorybox p{
+  color: #8f8f8f;
+  font-size: 0.8em;
+}
+
+#topstoryline{
+  width:90%;
+}
+
+.sidestory-1 h4{
+  font-size: 1.3em;
+  line-height: 1.2;
+}
+
+.sidestory img{
+  margin-bottom: 7px;
+}
+
+
+#topstory h4{
+  font-size: 2em;
+}
+
+#topstory img{
+  margin-left: 5px;
+  margin-top:5px;
+}
+
+#topstory p{
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+
+.sidestory-2 h4{
+  font-size: 1em;
+}
+
+.sidestory-3 h4{
+  font-size: 1em;
+}
+
+
+#sidestorybox{
+  width:60%;
+  margin-top: 5px;
+}
+
+#sidestorybox p{
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.sidestory{
+  margin-bottom: 20px;
+
+}
+
+.sidestory-1{
+    border-bottom: 1px solid #8f8f8f;
+}
+
+.sidestory-2{
+    border-bottom: 1px solid #8f8f8f;
+}
+
+#ejstoryboxforgrid{
+  text-align: left;
+}
+
+#ejstoryboxforgrid h3{
+   margin-left: 50px;
+   font-size: 2em;
+}
+
+
+.ejstorybox:hover{
+  border-width: 1px;
+  border-color:#2F8ECA;
+  border-style: solid;
+}
+
+#ejdesktop{
+  display: none;
+}
+
+#ejstoryheadline{
   display: none;
 }
 
@@ -672,6 +784,11 @@ nav ul li{
     flex-flow: column;
   }
 
+  #ejnavbox{
+    display:flex;
+    flex-flow: column;
+  }
+
   .storylogbox-2{
     display: flex;
     flex-flow: column;
@@ -717,11 +834,18 @@ nav ul li{
     grid-area:a;
   }
 
+  #ejnavbox{
+    position: relative;
+    top:20px;
+    grid-area:a;
+  }
+
   #regionalstorybox{
     grid-area:b;
   }
 
   #gsgridbox{
+    margin-bottom: 90px;
     display: grid;
     grid-column-gap: 20px;
     grid-template-columns: 190px 1.5fr;
@@ -729,6 +853,15 @@ nav ul li{
         "a b";
   }
 
+  #worldmap h2{
+    margin-top:40px;
+    margin-bottom: 10px;
+
+  }
+
+#worldmap{
+  margin-bottom: 20px;
+}
   .businesscard{
     display:flex;
     flex-flow:row;
@@ -757,7 +890,67 @@ margin-right:auto;
 }
 }
 
-  }
+
+/* Code for Exiled Journalist*/
+@media screen and (min-width: 700px){
+   .ejstorybox{
+     display:flex;
+     flex-flow: row;
+   }
+
+   .ejstorybox img{
+     margin: 20px;
+     width:30%;
+     height: 30%;
+   }
+
+   .ejstorybox h4{
+     font-size: 1.3em;
+     margin-top: 30px;
+   }
+
+   .ejstorybox p{
+     font-size: 0.9em;
+   }
+
+   .ejstoryline{
+     padding-right: 40px;
+
+   }
+
+   .ejstorybox{
+     width:95%;
+     margin-top:20px;
+     margin-bottom:20px;
+     margin-left: 45px;
+
+   }
+
+   #ejgridbox{
+     padding: 10px;
+     margin-bottom: 70px;
+     display: grid;
+     grid-column-gap: 20px;
+     grid-template-columns: 190px 1.5fr;
+     grid-template-areas:
+         "a b";
+   }
+
+   #ejstoryboxforgrid{
+     grid-area:b;
+   }
+
+   #ejdesktop{
+     display: table-row;
+   }
+
+   #ejstoryheadline{
+     display: table-row;
+   }
+
+
+}
+
 
 
 
