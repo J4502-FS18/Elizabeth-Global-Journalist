@@ -8,6 +8,12 @@ body {
   display: none;
 }
 
+#exiledjournalists {
+  display: none;
+}
+
+#globalstories {display: none;}
+
 .missionstatement{
   font-family: 'Asap Condensed', sans-serif;
 }
@@ -924,6 +930,12 @@ margin-right:auto;
 
 @media screen and (min-width: 700px){
 
+#globalstories {
+  display: contents;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 #mandf {
   display: grid;
 }
@@ -989,6 +1001,12 @@ margin-right:auto;
 }
 
 @media screen and (min-width: 700px){
+
+#exiledjournalists {
+  display: contents;
+  font-size: 30px;
+  font-weight: bold;
+}
 
    #webstories {
       display:flex;
