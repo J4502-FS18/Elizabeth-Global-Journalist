@@ -8,6 +8,10 @@ body {
   display: none;
 }
 
+.missionstatement{
+  font-family: 'Asap Condensed', sans-serif;
+}
+
 
 #video1 {
   position: relative;
@@ -32,8 +36,10 @@ body {
 }
 
 
-.worldmap{
-  display:none;
+
+
+#worldmap h2{
+  font-size: 30px;
 }
 
 .bluetext {
@@ -41,7 +47,7 @@ body {
     font-family: 'Source Serif Pro', serif;
     font-size:18px;
 margin-top: 15px;
-background-color: #2f8eca;
+background-color: #287AAD;
 max-width: 300px;
 justify-content: center;
 margin:auto;
@@ -149,7 +155,7 @@ h3{
 .storylog{
   display:flex;
   flex-direction:row;
-  padding:15px 30px 15px 30px;
+  padding:20px 10px 20px 20px;
   margin:20px;
   background-color: #121212;
 }
@@ -161,7 +167,8 @@ h3{
 }
 
 .storyheadline{
-  margin-left:25px;
+  margin-left:15px;
+  width:170px;
 }
 
 .storylog p{
@@ -340,7 +347,7 @@ body {
     font-family: 'Source Serif Pro', serif;
     font-size:18px;
     margin-top: 15px;
-    background-color: #2f8eca;
+    background-color: #287AAD;
     max-width: 300px;
     margin-bottom: 50px;
     margin-top: 70px;
@@ -707,8 +714,11 @@ right:-10px;
   height: 100px;
 }
 
-h1{
-  margin:0 auto;
+#headbar h1{
+  margin-top:10px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  font-size: 50px;
   letter-spacing: 6px;
     font-weight: 180;
 }
@@ -810,6 +820,7 @@ nav ul li{
   }
 
   #worldmap h2{
+    font-size: 36px;
     margin-top:40px;
     margin-bottom: 10px;
 
@@ -931,7 +942,7 @@ margin-right:auto;
   }
 
   .mission1 {
-    background-color: blue;
+    background-color:#287AAD;
     border: 1px solid black;
     padding: 10px;
     border-radius: 5px;
