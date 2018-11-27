@@ -1082,10 +1082,10 @@ margin-right:auto;
       }
 
       .desk:hover, .desk:active{
-        background-color:rgb(156, 126, 130);
-          color:white;
+  background-color:rgb(156, 126, 130);
+    color:white;
+  }
 
-      
-      }
+
 
     }
