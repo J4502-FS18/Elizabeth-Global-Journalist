@@ -4,6 +4,15 @@ body {
   padding: 20px;
 }
 
+h6{
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+  margin:0;
+}
+
 #mandf {
   display: none;
 }
@@ -19,27 +28,13 @@ body {
 }
 
 
-#video1 {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+.container3{
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
 }
 
 
-
-#video1  iframe,
-#video1  object,
-#video1 embed {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
 
 
 
@@ -48,17 +43,6 @@ body {
   font-size: 30px;
 }
 
-.bluetext {
-    padding-top:2px;
-    font-family: 'Source Serif Pro', serif;
-    font-size:18px;
-margin-top: 15px;
-background-color: #287AAD;
-max-width: 300px;
-justify-content: center;
-margin:auto;
-
-}
 
 p {
   color: #ffffff;
@@ -348,16 +332,8 @@ body {
     font-size: 20px;
 
 }
-.bluetext {
-    padding-top:2px;
-    font-family: 'Source Serif Pro', serif;
-    font-size:18px;
-    margin-top: 15px;
-    background-color: #287AAD;
-    max-width: 300px;
-    margin-bottom: 50px;
-    margin-top: 70px;
-}
+
+
 
 
 
@@ -376,7 +352,7 @@ body {
 
 
 .team-member, .team-member .team-img {
-    width:30%;
+    width:100%;
 }
 .team-member {
     overflow: hidden;
@@ -388,11 +364,11 @@ body {
 
 
 
-h4 {
-    font-family:  'Vollkorn', serif;
+.desk h4 {
+    font-family:  "Open Sans", sans-serif;
     color:rgb(51,135,190);
-    margin-top: 5px;
-      margin-bottom: 5px;
+    margin-top: 17px;
+    margin-bottom: 5px;
 }
 
 .team-member a {
@@ -491,17 +467,40 @@ a {
 }
 
 .team-img img{
-  width:60%;
+  width:80%;
+  height: 80%;
+  margin-top: 20px;
+  margin-bottom: auto;
 }
+
+.img-responsive{
+  width:300px;
+  height: 300px;
+}
+
 
 #video1 {
   margin-top:100px;
   margin-bottom: 20px;
+  width:50%;
+  height: 50%;
+}
+
+.intro{
+margin-top: auto;
+margin-bottom: auto;
+margin-left:20px;
+font-family:"Oswald", sans-serif;
+font-weight: 70;
+font-size:22px;
+max-width: 400px;
+margin-left: auto;
+margin-right: auto;
 }
 
 
 .leave {
-  margin-top:70px;
+  margin-top:100px;
   margin-bottom:30px;
   font-size: 30px;
 line-height:30px;
@@ -510,11 +509,21 @@ margin-right: auto;
 text-align: center;
 }
 
+.quotes{
+  margin-top:30px;
+margin-bottom:30px;
+font-size: 30px;
+line-height:30px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
 
 .businesscard {
   background-color: #1F1F1F;
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 5px;
+  justify-content: center;
 }
 
 nav ul {
@@ -524,6 +533,13 @@ nav ul {
     display:none;
 }
 
+.team-img {
+  height:250px;
+  min-width: 250px;
+  max-width:250px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 .menu-trigger {
@@ -843,7 +859,8 @@ nav ul li{
   }
 
 .businesscard img{
-  width:30%;
+  width:80%;
+  height:80%
 }
 
 
