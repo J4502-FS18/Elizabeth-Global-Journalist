@@ -4,6 +4,37 @@ body {
   padding: 20px;
 }
 
+.cu{
+  display:flex;
+  flex-flow: row;
+}
+.container5 p{
+
+  font-size:15px;
+}
+
+.staffs p{
+position:relative;
+right:-30px;
+font-size: 30px;
+margin-top: 100px;
+}
+
+
+.staffs ul{
+font-size: 20px;
+color:#ffffff;
+}
+
+
+
+.container5{
+position:relative;
+left:-20px;
+
+}
+
+
 h6{
   color: #ffffff;
   font-family: 'Oswald', sans-serif;
@@ -507,6 +538,8 @@ line-height:30px;
 margin-left: auto;
 margin-right: auto;
 text-align: center;
+position:relative;
+left:-100px;
 }
 
 .quotes{
