@@ -42,7 +42,7 @@ color:#ffffff;
 
 
 .container5{
-margin-left: 10px;
+margin-left: auto;
 margin-right: auto;
 
 
@@ -533,6 +533,7 @@ a {
   margin-bottom: 20px;
   width:50%;
   height: 50%;
+  margin-left: 50px;
 }
 
 .intro{
@@ -1210,7 +1211,7 @@ margin-right:auto;
 }
 .cu{
   display:flex;
-  flex-flow: row;
+  flex-flow: row-reverse;
 }
 
 .staffs{
