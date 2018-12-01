@@ -1361,6 +1361,8 @@ color:#ffffff;
   .section3 {
     grid-area: f;
   }
+
+
   .image2 {
     grid-area: g;
   }
@@ -1371,6 +1373,10 @@ color:#ffffff;
     margin-top: 0;
   }
 
+.vertical{
+      grid-area: h;
+}
+
 
   article {
     display: grid;
@@ -1378,6 +1384,7 @@ color:#ffffff;
     grid-gap: 20px;
     grid-template-areas:
         "a b b e"
+        "a b b h"
         "c c c ."
         ". d d ."
         ". . g g"
