@@ -9,7 +9,25 @@ body {
   display: none;
 }
 
+.social img{
+  width:50px;
+  height:50px;
+    border-radius: 9px;
 
+}
+
+
+
+
+
+.social ul{
+ list-style-type: none;
+ display: flex;
+ flex-direction: row;
+padding-left: 0;
+
+
+}
 
 .pullquote {
   display: none;
@@ -65,6 +83,7 @@ margin-top: 100px;
 .staffs ul{
 font-size: 15px;
 color:#ffffff;
+font-family: "Open Sans", sans-serif;
 }
 
 
@@ -584,13 +603,15 @@ a {
 margin-top: 40px;
 margin-bottom: 30px;
 margin-left:20px;
-font-family:"Oswald", sans-serif;
+font-family:"Open Sans", sans-serif;
 font-weight: 70;
 font-size:22px;
 max-width: 400px;
 margin-left: auto;
 margin-right: auto;
 display:none;
+margin-top: auto;
+margin-bottom: auto;
 }
 
 
@@ -1190,6 +1211,9 @@ margin-right:auto;
       /* Code for Aboutus*/
       @media screen and (min-width: 700px){
 
+
+
+
           .businesscard{
             display:flex;
             flex-flow:row;
@@ -1248,7 +1272,7 @@ margin-right:auto;
         .leave {
           margin-top:10px;
           margin-bottom:30px;
-          font-size: 30px;
+          font-size: 50px;
         line-height:30px;
         margin-left: auto;
         margin-right: auto;
