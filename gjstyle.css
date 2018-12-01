@@ -267,6 +267,19 @@ p {
   font-size: 14px;
 }
 
+.qs{
+  font-weight: 900;
+  background-color: #287AAD;
+  border-radius: 8px;
+  padding-left: 5px;
+  margin-right: 200px;
+  font-size: 18px;
+  min-width: 300px;
+opacity: 0.8;
+}
+
+
+
 h1 {
   color: #ffffff;
   font-family: 'Oswald', sans-serif;
