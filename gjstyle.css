@@ -1338,9 +1338,9 @@ color:#ffffff;
     grid-template-areas:
         "a b b e"
         "c c c ."
-        ". d d ."
+        ". d d d"
         ". . g g"
-        ". f f .";
+        "f f f .";
   }
 
 
