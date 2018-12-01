@@ -74,7 +74,7 @@ text-align: center;
 
 .staffs p{
 position:relative;
-right:-30px;
+right:-200px;
 font-size: 30px;
 margin-top: 100px;
 }
@@ -103,6 +103,7 @@ h6{
   font-size: 26px;
   text-align: center;
   margin:0;
+  padding-bottom: 20px;
 }
 
 #mandf {
@@ -414,6 +415,7 @@ input[type=submit]:hover {
     margin-left: auto;
     margin-right: auto;
     color:white;
+    margin-bottom: 50px;
 }
 
 
@@ -1278,7 +1280,7 @@ margin-right:auto;
         margin-right: auto;
         text-align: center;
         position:relative;
-        left:-100px;
+        left:-50px;
         }
 }
 .cu{
@@ -1287,7 +1289,7 @@ margin-right:auto;
 }
 
 .staffs{
-  margin-left:50px;
+  margin-left:100px;
 }
 
 .staffs p{
