@@ -16,7 +16,9 @@ body {
 
 }
 
-
+.vertical{
+  display: none;
+}
 
 
 
@@ -823,7 +825,7 @@ article{
 }
 
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 1000px){
 
   .navbar{
     display:flex;
@@ -876,7 +878,7 @@ nav ul li{
 
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 1000px){
 
   #headline{
     display: none;
@@ -997,7 +999,7 @@ margin-right:auto;
 
 
 /* Code for Exiled Journalist*/
-@media screen and (min-width: 700px){
+@media screen and (min-width: 1000px){
    .ejstorybox{
      display:flex;
      flex-flow: row;
@@ -1060,7 +1062,7 @@ margin-right:auto;
 
 
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 1000px){
 
 #globalstories {
   display: contents;
@@ -1132,7 +1134,7 @@ margin-right:auto;
 
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 1000px){
 
   #exiledjournalists {
   display: contents;
@@ -1174,7 +1176,7 @@ margin-right:auto;
 
   }
 
-  @media screen and (min-width: 700px){
+  @media screen and (min-width: 1000px){
 
      #exiles {
         display:flex;
@@ -1212,7 +1214,7 @@ margin-right:auto;
 
 
       /* Code for Aboutus*/
-      @media screen and (min-width: 700px){
+      @media screen and (min-width: 1000px){
 
 
 
@@ -1283,7 +1285,7 @@ margin-right:auto;
         position:relative;
         left:-50px;
         }
-}
+
 .cu{
   display:flex;
   flex-flow: row-reverse;
@@ -1306,8 +1308,40 @@ font-size: 15px;
 color:#ffffff;
 }
 
+
+.platform{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  background-color: #323232;
+  margin-left: 90px;
+  margin-right: 80px;
+  margin-bottom: 100px;
+
+}
+
+.platform1{
+  margin:10px;
+  max-width: 500px;
+}
+
+.platform2{
+  margin:10px;
+  max-width: 500px;
+}
+}
+
+
+
+
+
+
+
+
+
+
 /* Code for Turkey Story*/
-@media screen and (min-width: 700px){
+@media screen and (min-width: 1000px){
 
   #container {
       width: 80%;
@@ -1391,6 +1425,8 @@ color:#ffffff;
         ". f f .";
   }
 
-
+  .vertical{
+    display: block;
+  }
 
     }
