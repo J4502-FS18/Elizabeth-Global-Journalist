@@ -4,6 +4,18 @@ body {
   padding: 20px;
 }
 
+#headline1{
+    border-color: #ffffff;
+    border-width: 2px 0 2px 0;
+    border-style:solid;
+    margin:50px;
+    display: none;
+  }
+
+.platform{
+  display: none;
+}
+
 .authorbox img {
   /*visibility: hidden;*/
   display: none;
@@ -127,8 +139,6 @@ h6{
   margin-top: 20px;
   justify-content:center;
   width:100%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 
@@ -1216,7 +1226,9 @@ margin-right:auto;
       /* Code for Aboutus*/
       @media screen and (min-width: 1000px){
 
-
+#headline1{
+  display: block;
+}
 
 
           .businesscard{
@@ -1254,6 +1266,7 @@ margin-right:auto;
           	padding-left:30px;
         	height:0;
         	overflow:hidden;
+          justify-content: center;
         }
 
         .video1 iframe, .video1 object, .video-1 embed {
@@ -1270,7 +1283,8 @@ margin-right:auto;
           display: flex;
           flex-direction: row;
           margin-top: 100px;
-          justify-content:center;
+          margin-left: auto;
+          margin-right: auto;
           width:100%;
         }
 
@@ -1314,7 +1328,7 @@ color:#ffffff;
   flex-flow: row;
   justify-content: center;
   background-color: #323232;
-  margin-left: 90px;
+  margin-left: 80px;
   margin-right: 80px;
   margin-bottom: 100px;
 
