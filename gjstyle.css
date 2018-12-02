@@ -15,7 +15,6 @@ body {
 .platform{
   display: none;
 }
-
 .authorbox img {
   /*visibility: hidden;*/
   display: none;
@@ -429,6 +428,7 @@ input[type=submit]:hover {
     margin-right: auto;
     color:white;
     margin-bottom: 50px;
+    opacity: 0.8;
 }
 
 
