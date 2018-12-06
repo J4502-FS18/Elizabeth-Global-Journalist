@@ -140,10 +140,6 @@ h6{
 
 #globalstories {display: none;}
 
-.missionstatement{
-  font-family: 'Asap Condensed', sans-serif;
-}
-
 
 .container3{
   margin-top: 20px;
@@ -1118,6 +1114,13 @@ margin-right:auto;
   }
 
   .mission1 p {
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 27px;
+     max-width: 200px;
+     text-align: center;
+     justify-content: center;
+     align-content: center;
+     align-self: center;
     text-align: center;
     justify-content: center;
   }
@@ -1133,16 +1136,6 @@ margin-right:auto;
   .missionandfeature img {
     width: 100%;
     justify-content: center;
-  }
-
-
-  .missionstatement {
-  font-size: 27px;
-   max-width: 200px;
-   text-align: center;
-   justify-content: center;
-   align-content: center;
-   align-self: center;
   }
 
   .mission1{
