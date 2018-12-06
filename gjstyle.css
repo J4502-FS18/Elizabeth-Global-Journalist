@@ -1111,6 +1111,7 @@ margin-right:auto;
     border-radius: 5px;
     justify-content: center;
     align-content: center;
+    align-self: center;
   }
 
   .mission1 p {
@@ -1123,6 +1124,7 @@ margin-right:auto;
      align-self: center;
     text-align: center;
     justify-content: center;
+    align-self: center;
   }
 
   .mission2 {
