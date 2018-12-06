@@ -58,8 +58,17 @@ article:last-of-type {
 
 
 
+#containerw{
+  width:80%;
+  margin:0 auto;
 
+}
 
+#containerb{
+  background-color: #121212;
+  padding: 50px;
+    border-radius: 8px;
+}
 
 
 
@@ -90,12 +99,14 @@ position:relative;
 right:-200px;
 font-size: 30px;
 margin-top: 100px;
+ list-style-type: none;
 }
 
 
 .staffs ul{
 font-size: 15px;
 color:#ffffff;
+ list-style-type: none;
 font-family: "Open Sans", sans-serif;
 }
 
@@ -303,7 +314,7 @@ p {
   background-color: #287AAD;
   border-radius: 8px;
   padding-left: 5px;
-  margin-right: 150px;
+  margin-right: 50px;
   font-size: 18px;
   min-width: 300px;
 opacity: 0.8;
