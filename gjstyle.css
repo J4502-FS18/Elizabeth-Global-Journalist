@@ -5,7 +5,25 @@ body {
 }
 
 
+h6 {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
 
+
+.containerpp{
+  width:80%;
+  margin: auto;
+  justify-content: center;
+  padding: auto;
+}
+
+.containerpp ul{
+  justify-content: center;
+}
 
 
 #headline1{
@@ -221,6 +239,7 @@ h3{
     padding: 14px 16px;
     text-decoration: none;
       background-color: #A9A9A9;
+text-align: center;
 }
 
 
@@ -868,6 +887,59 @@ article{
 }
 
 
+  .mission1 {
+    background-color:#287AAD;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .mission1 p {
+    text-align: center;
+    justify-content: center;
+  }
+
+.introp {
+	font-family: 'PT Serif', "Time New Roman", Arial, sans-serif;
+	color: #fff;
+	background: #121212;
+	padding-left: 10%;
+	padding-right: 10%;
+  text-align: left;
+    border-radius: 15px;
+
+}
+
+.introp h4{
+  color:white;
+
+}
+
+.containerp {
+  display: flex;
+  flex-direction: row;
+	padding: 5px;
+	background: rgb(121,116,129);
+	margin: 20px auto;
+  box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+  align-content: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+	text-align: center;
+  border-radius: 15px;
+}
+
+
+
+    .authorboxp img {
+      display: block;
+      width: 70%;
+      margin-top: 0.5em;
+        border-radius: 15px;
+
+    }
 
 @media screen and (min-width: 1000px){
 
@@ -1131,19 +1203,6 @@ margin-right:auto;
     "a b b";
   }
 
-  .mission1 {
-    background-color:#287AAD;
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 5px;
-    justify-content: center;
-    align-content: center;
-  }
-
-  .mission1 p {
-    text-align: center;
-    justify-content: center;
-  }
 
   .mission2 {
     background-color: none;
