@@ -54,6 +54,62 @@ h6 {
 }
 
 
+padding: 20px;
+}
+
+/*Carousel*/
+
+
+.text-block{
+background-color:#287AAD;;
+padding:5px;
+margin-top:0;
+width:100%;
+}
+
+.sliderphoto img{
+width:100%;
+}
+
+.sliderphoto {
+width:95%;
+margin:0 auto;
+}
+
+.arrow {
+border:none;
+display:inline-block;
+outline:0;
+padding:8px 16px;
+vertical-align:middle;
+overflow:hidden;
+text-decoration:none;
+color:black;
+background-color:white;
+text-align:center;
+}
+
+.right{
+position:absolute;
+top:50%;
+right:16%;
+transform:translate(0%,-50%);
+}
+
+.left{
+position:absolute;
+top:50%;
+left:40%;
+transform:translate(0%,-50%);
+}
+
+.slider-display{
+max-width:980px;
+margin:0 auto;
+}
+
+/*Carousel End*/
+
 
 .social ul{
  list-style-type: none;
@@ -72,6 +128,14 @@ padding-left: 0;
   justify-content: center;
   align-content: center;
   width:80%;
+      align-self: center;
+      font-family: 'Asap Condensed', sans-serif;
+font-size: 27px;
+ max-width: 200px;
+ text-align: center;
+ justify-content: center;
+ align-content: center;
+ align-self: center;
 }
 
 .mission1 p {
@@ -79,6 +143,7 @@ padding-left: 0;
   justify-content: center;
  padding-top:auto;
  padding-bottom: auto;
+     align-self: center;
 }
 .pullquote {
   display: none;
@@ -163,9 +228,6 @@ h6{
 
 #globalstories {display: none;}
 
-.missionstatement{
-  font-family: 'Asap Condensed', sans-serif;
-}
 
 
 .container3{
