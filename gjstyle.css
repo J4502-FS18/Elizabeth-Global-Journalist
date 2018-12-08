@@ -4,58 +4,9 @@ body {
   padding: 20px;
 }
 
-/*Carousel*/
 
 
-.text-block{
-  background-color:#287AAD;;
-  padding:5px;
-  margin-top:0;
-  width:100%;
-}
 
-.sliderphoto img{
-  width:100%;
-}
-
-.sliderphoto {
-  width:95%;
-  margin:0 auto;
-}
-
-.arrow {
-  border:none;
-  display:inline-block;
-  outline:0;
-  padding:8px 16px;
-  vertical-align:middle;
-  overflow:hidden;
-  text-decoration:none;
-  color:black;
-  background-color:white;
-  text-align:center;
-}
-
-.right{
-  position:absolute;
-  top:50%;
-  right:16%;
-  transform:translate(0%,-50%);
-}
-
-.left{
-  position:absolute;
-  top:50%;
-  left:40%;
-  transform:translate(0%,-50%);
-}
-
-.slider-display{
-  max-width:980px;
-  margin:0 auto;
-}
-
-/*Carousel End*/
 
 #headline1{
     border-color: #ffffff;
@@ -147,21 +98,6 @@ text-align: center;
 }
 
 
-.staffs p{
-position:relative;
-right:-200px;
-font-size: 30px;
-margin-top: 100px;
- list-style-type: none;
-}
-
-
-.staffs ul{
-font-size: 15px;
-color:#ffffff;
- list-style-type: none;
-font-family: "Open Sans", sans-serif;
-}
 
 
 
@@ -192,6 +128,10 @@ h6{
 }
 
 #globalstories {display: none;}
+
+.missionstatement{
+  font-family: 'Asap Condensed', sans-serif;
+}
 
 
 .container3{
@@ -895,6 +835,40 @@ article{
 }
 
 
+.person-badge1 {
+  margin-top: 100px;
+  display:flex;
+  flex-direction:row;
+  margin-left: 20px;
+  margin-right: 20px;
+    justify-content: center;
+}
+
+
+.person-badge1 img{
+
+  border-radius: 50%;
+
+}
+
+.person-badge2 {
+  margin-top: 100px;
+  display:flex;
+  flex-direction:row;
+  margin-left: 20px;
+  margin-right: 20px;
+    justify-content: center;
+}
+
+
+.person-badge2 img{
+
+  border-radius: 50%;
+
+}
+
+
+
 @media screen and (min-width: 1000px){
 
   .navbar{
@@ -1164,20 +1138,11 @@ margin-right:auto;
     border-radius: 5px;
     justify-content: center;
     align-content: center;
-    align-self: center;
   }
 
   .mission1 p {
-    font-family: 'Asap Condensed', sans-serif;
-    font-size: 27px;
-     max-width: 200px;
-     text-align: center;
-     justify-content: center;
-     align-content: center;
-     align-self: center;
     text-align: center;
     justify-content: center;
-    align-self: center;
   }
 
   .mission2 {
@@ -1191,6 +1156,16 @@ margin-right:auto;
   .missionandfeature img {
     width: 100%;
     justify-content: center;
+  }
+
+
+  .missionstatement {
+  font-size: 27px;
+   max-width: 200px;
+   text-align: center;
+   justify-content: center;
+   align-content: center;
+   align-self: center;
   }
 
   .mission1{
@@ -1364,9 +1339,6 @@ margin-right:auto;
   flex-flow: row-reverse;
 }
 
-.staffs{
-  margin-left:100px;
-}
 
 .staffs p{
 position:relative;
