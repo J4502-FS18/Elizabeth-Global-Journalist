@@ -122,29 +122,25 @@ padding-left: 0;
 
 .mission1 {
   background-color:#287AAD;
-  border: 1px solid black;
-  padding: 10px;
-  border-radius: 5px;
-  justify-content: center;
-  align-content: center;
-  width:80%;
-      align-self: center;
-      font-family: 'Asap Condensed', sans-serif;
-font-size: 27px;
- max-width: 200px;
- text-align: center;
- justify-content: center;
- align-content: center;
- align-self: center;
+       border: 1px solid black;
+       padding: 10px;
+       border-radius: 5px;
+       justify-content: center;
+       align-content: center;
 }
 
 .mission1 p {
-  text-align: center;
-  justify-content: center;
- padding-top:auto;
- padding-bottom: auto;
-     align-self: center;
+  font-family: 'Asap Condensed', sans-serif;
+      font-size: 27px;
+       max-width: 200px;
+       text-align: center;
+       justify-content: center;
+       align-content: center;
+       align-self: center;
+      text-align: center;
+      justify-content: center;
 }
+
 .pullquote {
   display: none;
 }
@@ -1282,15 +1278,6 @@ margin-right:auto;
     justify-content: center;
   }
 
-
-  .missionstatement {
-  font-size: 27px;
-   max-width: 200px;
-   text-align: center;
-   justify-content: center;
-   align-content: center;
-   align-self: center;
-  }
 
   .mission1{
     grid-area:a;
