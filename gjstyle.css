@@ -4,16 +4,13 @@ body {
   padding: 20px;
 }
 
-.text-block {
-  font-size:20px;
+.slidecaptionbox h4{
+  font-size:2em;
   font-weight: bold;
-  margin-top: -20px;
-  background-color: #1f1f1f;
 }
 
 .text-block-sub {
   margin-top: -20px;
-  background-color: #1f1f1f;
 }
 
 h6 {
@@ -71,9 +68,7 @@ padding: 20px;
 /*Carousel*/
 
 
-.text-block{
-background-color:#287AAD;
-padding:5px;
+.slidecaptionbox h4{
 margin-top:0;
 width:100%;
 }
@@ -102,17 +97,18 @@ text-align:center;
 
 .right{
 position: relative;
-transform:translate(0%,-50%);
+transform:translate(0%,-100%);
 }
 
 .left{
 position: relative;
-transform:translate(0%,-50%);
+transform:translate(0%,-100%);
 }
 
 .slider-display{
 max-width:980px;
 margin:0 auto;
+height: 500px;
 }
 
 .sliderphoto img{
@@ -170,12 +166,6 @@ article:last-of-type {
 }
 
 
-
-#containerw{
-  width:80%;
-  margin:0 auto;
-
-}
 
 #containerb{
   background-color: #121212;
@@ -1289,10 +1279,12 @@ margin-right:auto;
     padding: 10px;
     border-radius: 5px;
     justify-content: center;
+
   }
 
   .missionandfeature img {
     width: 100%;
+    height: 100%;
     justify-content: center;
   }
 
@@ -1320,6 +1312,7 @@ margin-right:auto;
       flex-direction:row;
       padding:15px 30px 15px 30px;
       margin:20px;
+      margin-bottom: 70px;
       background-color: #121212;
     }
 
@@ -1356,6 +1349,7 @@ margin-right:auto;
         flex-direction:row;
         padding:15px 30px 15px 30px;
         margin:20px;
+        margin-bottom: 90px;
         background-color: #121212;
       }
 
@@ -1769,6 +1763,31 @@ color:#ffffff;
 
      #footerstatement p{
        margin: 5px;
+     }
+
+     .slidecaptionbox{
+       position: relative;
+       top:-200px;
+       background-color: #0D0D0D;
+       opacity: 0.8;
+       padding-top:10px;
+       padding-bottom: 20px;
+     }
+
+
+     .slidecaptionbox h4{
+       font-family: 'Asap Condensed', sans-serif;
+       text-align: left;
+       margin: 10px;
+     }
+
+     .slidecaptionbox p{
+       text-align: left;
+       margin: 10px;
+     }
+
+     #allstories{
+       margin-top:70px;
      }
 
   }
