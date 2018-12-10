@@ -272,7 +272,7 @@ h2 {
 }
 
 h3{
-  font-size:1.5em;
+  font-size:1.8em;
   color: #ffffff;
   margin-bottom:0;
   margin-top:30px;
@@ -645,6 +645,11 @@ body {
   padding-left: 15px;
 }
 
+.storytitle h4:hover{
+  text-decoration: underline;
+  color: #2F8ECA;
+}
+
 .storytitle h4{
   font-size: 1.2em;
   font-weight: 550;
@@ -789,13 +794,17 @@ right:-10px;
 #gsnavbox h3{
   color: #2F8ECA;
   margin: 0;
-  font-size: 1.3em;
+  font-size: 1.5em;
+}
+
+#gsnavbox h3:active{
+  text-decoration: underline;
 }
 
 #ejnavbox h3{
   color: #2F8ECA;
   margin-top: 40px;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 #gsnavbox{
@@ -819,7 +828,11 @@ right:-10px;
 
 .gsnav p{
   margin: 5px;
-  font-size: 0.8em;
+  font-size: 0.9em;
+}
+
+.gsnav p:hover{
+  text-decoration: underline;
 }
 
 .storylogbox-2{
@@ -837,6 +850,11 @@ right:-10px;
 #topstorybox h4{
   font-family: 'Asap Condensed', sans-serif;
   color: #ffffff;
+  margin-top: 16px;
+}
+
+#topstorybox h4:hover{
+  text-decoration: underline;
 }
 
 #topstorybox p{
@@ -860,6 +878,7 @@ right:-10px;
 
 #topstory h4{
   font-size: 2em;
+  margin-bottom: 20px;
 }
 
 #topstory img{
@@ -870,6 +889,7 @@ right:-10px;
 #topstory p{
   margin-top: 5px;
   margin-bottom: 20px;
+  font-size: 1em;
 }
 
 
@@ -1140,7 +1160,7 @@ nav ul li{
     margin-bottom: 90px;
     display: grid;
     grid-column-gap: 20px;
-    grid-template-columns: 190px 1.5fr;
+    grid-template-columns: 0.8fr 3fr;
     grid-template-areas:
         "a b";
   }
@@ -1225,7 +1245,7 @@ margin-right:auto;
      margin-bottom: 70px;
      display: grid;
      grid-column-gap: 20px;
-     grid-template-columns: 190px 1.5fr;
+     grid-template-columns: 0.8fr 3fr;
      grid-template-areas:
          "a b";
    }
