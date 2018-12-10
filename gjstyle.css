@@ -1814,4 +1814,8 @@ color:#ffffff;
 
      }
 
+     .footerbox-2 p:hover{
+       text-decoration: underline;
+     }
+
   }
