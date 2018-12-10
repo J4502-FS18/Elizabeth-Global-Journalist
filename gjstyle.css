@@ -61,7 +61,7 @@ padding: 20px;
 
 
 .text-block{
-background-color:#287AAD;;
+background-color:#287AAD;
 padding:5px;
 margin-top:0;
 width:100%;
@@ -102,6 +102,12 @@ transform:translate(0%,-50%);
 .slider-display{
 max-width:980px;
 margin:0 auto;
+}
+
+.sliderphoto img{
+  width:auto;
+  height:500px;
+  min-width: 600px;
 }
 
 /*Carousel End*/
