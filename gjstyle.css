@@ -332,7 +332,7 @@ text-align: center;
 #footer{
   color:#ffffff;
   text-align:left;
-  background-color: #1F1F1F;
+  background-color: #121212;
 }
 
 #headline{
@@ -483,7 +483,6 @@ h2 {
 #footer{
   color:#ffffff;
   text-align: center;
-  background-color: #1F1F1F;
 }
 
 
@@ -641,14 +640,17 @@ body {
 }
 
 .storytitle{
-  font-size: 16px;
-  letter-spacing: 1px;
-  font-weight: 700;
-  text-decoration: black;
   text-align: left;
   color:#ffffff;
-  margin:10px 20px 5px 20px;
+  padding-left: 15px;
+}
 
+.storytitle h4{
+  font-size: 1.2em;
+  font-weight: 550;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 6px;
 }
 
 .storysubtitle{
@@ -1310,9 +1312,9 @@ margin-right:auto;
    #webstories {
       display:flex;
       flex-direction:row;
-      padding:15px 30px 15px 30px;
-      margin:20px;
-      margin-bottom: 70px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
       background-color: #121212;
     }
 
@@ -1336,10 +1338,6 @@ margin-right:auto;
       text-decoration:none;
     }
 
-    #webstories a:hover{
-      text-decoration: underline;
-    }
-
   }
 
   @media screen and (min-width: 1000px){
@@ -1347,9 +1345,9 @@ margin-right:auto;
      #exiles {
         display:flex;
         flex-direction:row;
-        padding:15px 30px 15px 30px;
-        margin:20px;
-        margin-bottom: 90px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
         background-color: #121212;
       }
 
@@ -1373,9 +1371,7 @@ margin-right:auto;
         text-decoration:none;
       }
 
-      #exiles a:hover{
-        text-decoration: underline;
-      }
+
 
 
 
@@ -1787,7 +1783,15 @@ color:#ffffff;
      }
 
      #allstories{
-       margin-top:70px;
+       margin-top:55px;
+     }
+
+     .homestoriesbox{
+       background-color:#121212;
+       padding-top: 20px;
+       padding-bottom: 10px;
+       margin-bottom: 90px;
+
      }
 
   }
