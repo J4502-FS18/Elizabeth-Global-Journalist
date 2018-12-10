@@ -127,6 +127,7 @@ padding-left: 0;
        border-radius: 5px;
        justify-content: center;
        align-content: center;
+       align-self: center;
 }
 
 .mission1 p {
